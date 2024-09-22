@@ -1,0 +1,15 @@
+.poster-image {
+    max-width: 100px;
+    max-height: 200px;
+}
+
+input{
+    padding: 10px;
+    margin: 8px;
+    display: flex;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}

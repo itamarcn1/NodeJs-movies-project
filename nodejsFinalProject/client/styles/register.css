@@ -1,0 +1,14 @@
+.container{
+    width: fit-content;
+    margin: auto;
+}
+
+input{
+    display: block;
+    padding: 3%;
+    margin: 3%;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}

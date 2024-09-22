@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/privateArea.css">
+    <title>private Area</title>
+</head>
+
+<body>
+    <h1>private Area</h1>
+    <h2>add new movie</h2>
+        <input type="text" name="movie_name" placeholder="enter movie name" id="movie_name">
+        <input type="text" name="date_of_broadcast" placeholder="enter date of broadcast" id="date_of_broadcast">
+        <input type="text" name="film_director" placeholder="enter film director name" id="film_director">
+        <input type="text" name="movie_length" placeholder="enter movie length" id="movie_length">
+        <input type="file" name="movie_poster" placeholder="enter movie poster" id="movie_poster">
+        <input type="submit" value="Submit" id="submit_btn">
+
+    <h2>your uploaded movies</h2>
+    <div id="container">
+
+    </div>
+
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="/client/scripts/privateArea.js"></script>
+</body>
+
+</html>
